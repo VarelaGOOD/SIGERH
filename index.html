@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIGERH - Reporte</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      
+      @font-face {
+    font-family: 'KarolSans';
+    src: url('./KarolSans-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'QuetzalliSans';
+    src: url('./QuetzalliSans-Thin.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'KarolSans', sans-serif;
+  }
+
+  body, p, span, li {
+    font-family: 'QuetzalliSans', sans-serif;
+  }
+ body {
+  font-family: 'QuetzalliSans', sans-serif !important;
+  font-size: 1.1rem !important;
+  line-height: 1.75 !important;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'KarolSans', sans-serif !important;
+  font-weight: 600 !important;
+}
+
+
+
+
+
+
+      @keyframes fade-in {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      .animate-fade-in {
+        animation: fade-in 0.8s ease-out;
+      }
+      
+    </style>
+  </head>
+  <body class="bg-gray-50 text-gray-800 font-[Inter]">
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+          <div class="flex items-center space-x-4">
+            <div class="w-10 h-10 bg-white rounded-lg flex items-center justify-center">
+              
+            </div>
+            <h1 class="text-4xl font-bold text-[#374151]">
+              SIGERH
+            </h1>
+          </div>
+          <nav class="hidden md:flex space-x-8">
+            <a href="#resumen" class="text-sm font-medium text-[#374151] hover:text-[#4B8C5D]">Resumen</a>
+            <a href="#gabriel" class="text-sm font-medium text-[#374151] hover:text-[#4B8C5D]">Gabriel</a>
+            <a href="#armando" class="text-sm font-medium text-[#374151] hover:text-[#4B8C5D]">Armando</a>
+            <a href="#homologaciones" class="text-sm font-medium text-[#374151] hover:text-[#4B8C5D]">Homologaciones</a>
+            <a href="#generales" class="text-sm font-medium text-[#374151] hover:text-[#4B8C5D]">Generales</a>
+            <a href="#anexos" class="text-sm font-medium text-[#374151] hover:text-[#4B8C5D]">Anexos</a>
+            <a href="#detalle" class="text-sm font-medium text-[#374151] hover:text-[#4B8C5D]">Detalle</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+ <section
+  class="bg-[url('fondo-verde.png')] bg-cover bg-center text-white py-20 text-center"
+>
+  
+
+
+  <h1 class="text-4xl md:text-6xl font-bold mb-4 animate-fade-in">SIGERH</h1>
+  <h2 class="text-2xl md:text-3xl font-light animate-fade-in">
+    Reporte de Avances 2025
+  </h2>
+  <p class="text-xl text-gray-200 max-w-3xl mx-auto mt-4 animate-fade-in">
+    Sistema de Gestión de Recursos Humanos
+  </p>
+</section>
+
+
+
+
+    <!-- Contenido -->
+    <section id="resumen" class="scroll-mt-24 bg-white px-4 py-16 text-center">
+  <div class="max-w-5xl mx-auto">
+    <!-- Logo grande sobre el Resumen -->
+    <img
+      src="logo-Sigerh.png"
+      alt="Logo SIGERH"
+      class="mx-auto mb-8 w-32 h-32 md:w-52 md:h-52 object-contain"
+    />
+
+    <h2 class="text-5xl font-bold text-[#374151] mb-8">Resumen Ejecutivo</h2>
+
+    <div class="grid md:grid-cols-2 gap-6 text-gray-700 leading-relaxed text-xl">
+      <p>
+        El presente informe consolida el seguimiento integral del proyecto SIGERH
+        durante el primer semestre de 2025. A través del análisis de solicitudes,
+        requerimientos técnicos, validaciones y homologaciones de nómina, se
+        identifica un avance sostenido en la implementación y ajuste del sistema.
+      </p>
+      <p>
+        Destacan las solicitudes recurrentes de validación por parte del área
+        técnica y operativa, particularmente de Gabriel Hermando y Armando Santana,
+        quienes han contribuido a detectar y corregir diferencias en cálculos,
+        errores en capturas, y necesidades de desarrollo funcional.
+      </p>
+      <p>
+        Además, se documentan homologaciones relevantes que han permitido mejorar
+        la coincidencia en nóminas hasta en un 96%, fortaleciendo la trazabilidad
+        del sistema.
+      </p>
+      <p>
+        El reporte se complementa con tablas detalladas, evidencias documentales
+        y clasificaciones por fecha, módulo y tipo de incidencia. Este enfoque
+        busca brindar claridad, orden y respaldo técnico para la toma de
+        decisiones operativas.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+      <section id="gabriel" class="scroll-mt-24 bg-gray-50 px-4 py-16">
+  <div class="max-w-7xl mx-auto">
+    <h2 class="text-5xl font-bold text-[#374151] mb-12 text-center">
+      Solicitudes de Gabriel Hermando
+    </h2>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+        <div class="flex items-center mb-4">
+          <div class="w-12 h-12 bg-[#4B8C5D] rounded-lg flex items-center justify-center">
+            <i class="ri-database-line text-white text-xl"></i>
+          </div>
+          <h3 class="ml-4 text-2xl font-semibold text-[#374151]">Comparativos de Nómina (V1–V4)</h3>
+        </div>
+        <p class="text-gray-600 mb-4 text-xl">
+          Gabriel solicitó revisar casos con conceptos como 74 vs. 74A, diferencias en IP Patrón, y omisiones por archivos no cargados.
+        </p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+        <div class="flex items-center mb-4">
+          <div class="w-12 h-12 bg-[#4B8C5D] rounded-lg flex items-center justify-center">
+            <i class="ri-calendar-check-line text-white text-xl"></i>
+          </div>
+          <h3 class="ml-4 text-2xl font-semibold text-[#374151]">Cálculos por Quincena</h3>
+        </div>
+        <p class="text-gray-600 mb-4 text-xl">
+          Ajustes específicos para quincenas de enero, febrero y abril. Incluye observaciones por etiqueta, módulo y lógica de negocio.
+        </p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+        <div class="flex items-center mb-4">
+          <div class="w-12 h-12 bg-[#4B8C5D] rounded-lg flex items-center justify-center">
+            <i class="ri-layout-masonry-line text-white text-xl"></i>
+          </div>
+          <h3 class="ml-4 text-2xl font-semibold text-[#374151]">Validaciones de Módulos</h3>
+        </div>
+        <p class="text-gray-600 mb-4 text-xl">
+          Señaló inconsistencias en Interinatos, Permutas, Reingresos y otros, como errores de visualización o botones sin funcionar.
+        </p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+        <div class="flex items-center mb-4">
+          <div class="w-12 h-12 bg-[#4B8C5D] rounded-lg flex items-center justify-center">
+            <i class="ri-lightbulb-line text-white text-xl"></i>
+          </div>
+          <h3 class="ml-4 text-2xl font-semibold text-[#374151]">Propuestas Organizativas</h3>
+        </div>
+        <p class="text-gray-600 mb-4 text-xl">
+          Propuso reorganizar el plan de trabajo, formalizar entregables con bitácoras, y reforzar comunicación entre UEFAS y RH.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="armando" class="scroll-mt-24 bg-white px-4 py-16">
+  <div class="max-w-7xl mx-auto">
+    <h2 class="text-5xl font-bold text-[#374151] mb-12 text-center">
+      Requerimientos Prioritarios de Armando Santana
+    </h2>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+        <div class="flex items-center gap-3 mb-2">
+          <i class="ri-pencil-ruler-2-line text-[#4B8C5D] text-2xl"></i>
+          <h3 class="font-semibold text-[#374151] bg-gray text-2xl">Captura de Incidencias</h3>
+        </div>
+        <p class="text-xl text-gray-600">
+          Registro por tipo de movimiento y validación por RH. Iniciativa RFP-ID0001 del 7 de febrero.
+        </p>
+      </div>
+
+      <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+        <div class="flex items-center gap-3 mb-2">
+          <i class="ri-user-shared-line text-[#4B8C5D] text-2xl"></i>
+          <h3 class="font-semibold text-[#374151] text-2xl">Permutas y Cambios</h3>
+        </div>
+        <p class="text-xl text-gray-600">
+          Validación de que la plaza nueva y anterior mantengan nivel. Evita duplicación en cambios de unidad o nivel.
+        </p>
+      </div>
+
+      <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+        <div class="flex items-center gap-3 mb-2">
+          <i class="ri-printer-line text-[#4B8C5D] text-2xl"></i>
+          <h3 class="font-semibold text-[#374151] text-2xl">Recibos de Nómina</h3>
+        </div>
+        <p class="text-xl text-gray-600">
+          Agregar campo editable con el nombre del Director de RH y opción de vista previa/exportación.
+        </p>
+      </div>
+
+      <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+        <div class="flex items-center gap-3 mb-0">
+          <i class="ri-money-dollar-circle-line text-[#4B8C5D] text-2xl"></i>
+          <h3 class="font-semibold text-[#374151] text-2xl">Cálculo de Nómina y Vales</h3>
+        </div>
+        <p class="text-xl text-gray-600">
+          Nuevas reglas de operación y ajustes legales aplicados al cálculo de percepciones.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <section class="bg-white px-4 py-16">
+  <div class="max-w-7xl mx-auto">
+    <h2 class="text-5xl font-bold text-[#374151] mb-12 text-center">
+      Requerimientos Adicionales (Feb–Mar 2025)
+    </h2>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+        <div class="flex items-center gap-3 mb-2">
+          <i class="ri-user-add-line text-[#4B8C5D] text-2xl"></i>
+          <h3 class="font-semibold text-[#374151] text-2xl">Alta y Edición de Empleados</h3>
+        </div>
+        <p class="text-xl text-gray-600">
+          Validación estricta por plaza, régimen y conceptos. Consolidado a partir del RFP y seguimiento técnico.
+        </p>
+      </div>
+
+      <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+        <div class="flex items-center gap-3 mb-2">
+          <i class="ri-user-unfollow-line text-[#4B8C5D] text-2xl"></i>
+          <h3 class="font-semibold text-[#374151] text-2xl">Bajas</h3>
+        </div>
+        <p class="text-xl text-gray-600">
+          Liberación automática de plazas. El estatus queda pendiente de validación final por RH.
+        </p>
+      </div>
+
+      <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+        <div class="flex items-center gap-3 mb-2">
+          <i class="ri-suitcase-line text-[#4B8C5D] text-2xl"></i>
+          <h3 class="font-semibold text-[#374151] text-2xl">Vacaciones</h3>
+        </div>
+        <p class="text-xl text-gray-600">
+          Se ajustaron errores en el flujo de captura y validación de periodos, ahora sincronizado con el calendario institucional.
+        </p>
+      </div>
+
+      <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+        <div class="flex items-center gap-3 mb-2">
+          <i class="ri-calendar-2-line text-[#4B8C5D] text-2xl"></i>
+          <h3 class="font-semibold text-[#374151] text-2xl">Control de Captura</h3>
+        </div>
+        <p class="text-xl text-gray-600">
+          Calendario independiente por tipo de movimiento. Se agregan cierres automatizados por incidencia.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+    <section id="homologaciones" class="scroll-mt-24 bg-gray-50 px-4 py-16">
+  <div class="max-w-7xl mx-auto">
+    <h2 class="text-5xl font-bold text-[#374151] mb-12 text-center">
+      Homologaciones Detalladas
+    </h2>
+    <div class="grid md:grid-cols-2 gap-6">
+      
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <div class="flex justify-between items-start mb-2">
+          <h3 class="font-semibold text-[#374151] text-2xl">15/01/2025 – 1ra Qna Ene (V1)</h3>
+          <span class="text-base font-bold text-green-700">93%</span>
+        </div>
+        <p class="text-xl text-gray-600 mb-2">
+          Primer cálculo generado en SIGERH. Resultado base para comparación con el sistema anterior.
+        </p>
+        <div class="relative h-2 bg-gray-200 rounded-full overflow-hidden">
+          <div class="absolute top-0 left-0 h-full bg-green-600 rounded-full" style="width: 93%;"></div>
+        </div>
+      </div>
+
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <div class="flex justify-between items-start mb-2">
+          <h3 class="font-semibold text-[#374151] text-2xl" >22/01/2025 – 1ra Qna Ene (V2)</h3>
+          <span class="text-base font-bold text-green-700">93%</span>
+        </div>
+        <p class="text-xl text-gray-600 mb-2">
+          Diferencias en empleados dados de baja y conceptos omitidos. Observaciones de Gabriel García.
+        </p>
+        <div class="relative h-2 bg-gray-200 rounded-full overflow-hidden">
+          <div class="absolute top-0 left-0 h-full bg-green-600 rounded-full" style="width: 93%;"></div>
+        </div>
+      </div>
+
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <div class="flex justify-between items-start mb-2">
+          <h3 class="font-semibold text-[#374151] text-2xl">15/02/2025 – 2da Qna Feb (V3)</h3>
+          <span class="text-base font-bold text-green-700">92%</span>
+        </div>
+        <p class="text-xl text-gray-600 mb-2">
+          Ajustes por errores en agrupación del concepto 08 y duplicados. Corrección de IP Patrón.
+        </p>
+        <div class="relative h-2 bg-gray-200 rounded-full overflow-hidden">
+          <div class="absolute top-0 left-0 h-full bg-green-600 rounded-full" style="width: 92%;"></div>
+        </div>
+      </div>
+
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <div class="flex justify-between items-start mb-2">
+          <h3 class="font-semibold text-[#374151] text-2xl">20/04/2025 – 2da Qna Abr (V3)</h3>
+          <span class="text-base font-bold text-green-700">99.48%</span>
+        </div>
+        <p class="text-xl text-gray-600 mb-2">
+          Tercer comparativo de Armando Santana. 970 empleados aún con diferencias.
+        </p>
+        <div class="relative h-2 bg-gray-200 rounded-full overflow-hidden">
+          <div class="absolute top-0 left-0 h-full bg-green-600 rounded-full" style="width: 99.48%;"></div>
+        </div>
+      </div>
+
+      <div class="bg-white p-6 rounded-lg shadow-md md:col-span-2">
+  <div class="flex justify-between items-start mb-2">
+    <h3 class="font-semibold text-[#374151] text-2xl">12/05/2025 – 2da Qna Abr (V4)</h3>
+    <span class="text-base font-bold text-green-700">101.16%</span>
+  </div>
+  <p class="text-xl text-gray-600 mb-2">
+    Último comparativo con duplicación en agrupación. Gabriel reporta 101.16%, validado y considerado cerrado.
+  </p>
+  <div class="relative h-2 bg-gray-200 rounded-full overflow-hidden">
+    <div class="absolute top-0 left-0 h-full bg-green-600 rounded-full" style="width: 100%;"></div>
+  </div>
+</div>
+
+
+    </div>
+  </div>
+</section>
+
+
+
+    <section id="generales" class="scroll-mt-24 bg-white px-4 py-16">
+  <div class="max-w-5xl mx-auto">
+    <h2 class="text-5xl font-bold text-[#374151] mb-8 text-center">Solicitudes Generales</h2>
+    <div class="bg-gray-50 p-6 rounded-lg shadow-md text-gray-700 leading-relaxed space-y-4 text-2xl">
+      <p>Durante el proceso de implementación del SIGERH se recibieron múltiples solicitudes de ajuste y mejora por parte de usuarios clave. Estas incluyen desde temas de diseño visual hasta nuevas funciones internas.</p>
+      <p>En particular, se solicitó el rediseño del menú lateral, mejoras de filtros en reportes, compatibilidad con navegadores, y ajustes a la estructura de roles y permisos.</p>
+      <p>Otras observaciones incluyeron aspectos como control de asistencia, etiquetas de conceptos, modificación de lógica condicional en validaciones y conectividad con el sistema de incidencias.</p>
+      <p>Algunas peticiones no fueron atendidas por ser específicas de áreas fuera del alcance del sistema, mientras que otras se canalizaron a fases futuras del desarrollo.</p>
+    </div>
+  </div>
+</section>
+
+
+
+  <section id="anexos" class="scroll-mt-24 bg-gray-50 px-4 py-16">
+  <div class="max-w-7xl mx-auto">
+    <h2 class="text-5xl font-bold text-[#374151] mb-12 text-center">Anexos y Evidencias</h2>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      
+      <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+        <div class="flex items-center gap-3 mb-2">
+          <i class="ri-attachment-2 text-[#4B8C5D] text-2xl"></i>
+          <h3 class="font-semibold text-[#374151] text-2xl">Validación de módulos SIGERH</h3>
+        </div>
+        <p class="text-xl text-gray-600">
+          Documento PDF que resume los resultados funcionales por módulo
+        </p>
+      </div>
+
+      <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+        <div class="flex items-center gap-3 mb-2">
+          <i class="ri-file-excel-2-line text-[#4B8C5D] text-2xl"></i>
+          <h3 class="font-semibold text-[#374151] text-2xl">Comparativos de nómina (V2, V3, V4)</h3>
+        </div>
+        <p class="text-xl text-gray-600">
+          Archivos Excel con diferencias por concepto, agrupación y cálculos
+        </p>
+      </div>
+
+      <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+        <div class="flex items-center gap-3 mb-2">
+          <i class="ri-article-line text-[#4B8C5D] text-2xl"></i>
+          <h3 class="font-semibold text-[#374151] text-2xl">Plan de trabajo Etapa IV</h3>
+        </div>
+        <p class="text-xl text-gray-600">
+          Incluye validaciones paralelas, flujos no secuenciales y cierres técnicos
+        </p>
+      </div>
+
+      <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+        <div class="flex items-center gap-3 mb-2">
+          <i class="ri-mail-line text-[#4B8C5D] text-2xl"></i>
+          <h3 class="font-semibold text-[#374151] text-2xl">Correos técnicos</h3>
+        </div>
+        <p class="text-xl text-gray-600">
+          Observaciones enviadas por distintas áreas, con adjuntos y seguimiento
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+    <section id="detalle" class="scroll-mt-24 bg-white px-4 py-16">
+  <div class="max-w-7xl mx-auto">
+    <h2 class="text-5xl font-bold text-[#374151] mb-6 text-center">
+      Solicitudes y Homologaciones Detalladas
+    </h2>
+    <h3 class="text-3xl font-semibold text-[#374151] mb-8">7.1 Solicitudes de Gabriel García</h3>
+    
+    <div class="grid md:grid-cols-2 gap-6">
+      
+      <div class="bg-gray-50 p-6 rounded-lg shadow-md border-l-4 border-yellow-400">
+        <div class="flex justify-between items-start mb-2">
+          <span class="text-2xl text-gray-500">22/01/2025</span>
+          <span class="bg-yellow-100 text-yellow-800 text-xl font-semibold px-2 py-1 rounded-full">Pendiente</span>
+        </div>
+        <h4 class="font-semibold text-[#374151] text-2xl">Aclaración de diferencias</h4>
+        <p class="text-xl text-gray-600 mt-1">
+          Comparativo V2 entre conceptos 74 y 74A. Empleados dados de baja no contemplados en cálculo.
+        </p>
+      </div>
+
+      <div class="bg-gray-50 p-6 rounded-lg shadow-md border-l-4 border-green-400">
+        <div class="flex justify-between items-start mb-2">
+          <span class="text-2xl text-gray-500 ">06/02/2025</span>
+          <span class="bg-green-100 text-green-800 text-xl font-semibold px-2 py-1 rounded-full">Atendido</span>
+        </div>
+        <h4 class="font-semibold text-[#374151] text-2xl">Plan de trabajo – Etapa IV</h4>
+        <p class="text-xl text-gray-600 mt-1">
+          Entregable con flujos no secuenciales y retroalimentación técnica.
+        </p>
+      </div>
+
+      <div class="bg-gray-50 p-6 rounded-lg shadow-md border-l-4 border-green-400">
+        <div class="flex justify-between items-start mb-2">
+          <span class="text-2xl text-gray-500">27/02/2025</span>
+          <span class="bg-green-100 text-green-800 text-xl font-semibold px-2 py-1 rounded-full ">Atendido</span>
+        </div>
+        <h4 class="font-semibold text-[#374151] text-2xl">Seguimiento Captura</h4>
+        <p class="text-xl text-gray-600 mt-1">
+          Guía para clasificar y relacionar avances de SIGERH.
+        </p>
+      </div>
+
+      <div class="bg-gray-50 p-6 rounded-lg shadow-md border-l-4 border-green-400">
+        <div class="flex justify-between items-start mb-2">
+          <span class="text-2xl text-gray-500 text-2xl">12/03/2025</span>
+          <span class="bg-green-100 text-green-800 text-xl font-semibold px-2 py-1 rounded-full">Validado</span>
+        </div>
+        <h4 class="font-semibold text-[#374151] text-2xl">Validación técnica</h4>
+        <p class="text-xl text-gray-600 mt-1">
+          Errores en catálogos de importes en sistema QA.
+        </p>
+      </div>
+
+      <div class="bg-gray-50 p-6 rounded-lg shadow-md border-l-4 border-green-400 md:col-span-2">
+        <div class="flex justify-between items-start mb-2">
+          <span class="text-2xl text-gray-500">12/05/2025</span>
+          <span class="bg-green-100 text-green-800 text-xl font-semibold px-2 py-1 rounded-full">Validado</span>
+        </div>
+        <h4 class="font-semibold text-[#374151] text-2xl">Cierre de Validaciones</h4>
+        <p class="text-xl text-gray-600 mt-1">
+          Validación final del comparativo V4. Resultado superior al 100%.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="bg-white px-4 py-16">
+  <div class="max-w-7xl mx-auto">
+    <h3 class="text-5xl font-semibold text-[#374151] mb-8">7.2 Requerimientos de Armando Santana</h3>
+    <div class="grid md:grid-cols-2 gap-6">
+      
+      <div class="bg-gray-50 p-6 rounded-lg shadow-md border-l-4 border-blue-500">
+
+        <div class="flex justify-between items-start mb-2">
+          <span class="text-2xl text-gray-500">07/02/2025</span>
+          <span class="bg-blue-100 text-blue-700 text-xl font-semibold px-2 py-1 rounded-full">RFP-ID0001</span>
+        </div>
+        <h4 class="font-semibold text-[#374151] text-2xl">Captura de Incidencias</h4>
+        <p class="text-xl text-gray-600 mt-1">
+          Registro independiente por tipo de movimiento, validación RH.
+        </p>
+      </div>
+
+      <div class="bg-gray-50 p-6 rounded-lg shadow-md border-l-4 border-blue-500">
+        <div class="flex justify-between items-start mb-2">
+          <span class="text-2xl text-gray-500">07/02/2025</span>
+          <span class="bg-blue-100 text-blue-700 text-xl font-semibold px-2 py-1 rounded-full">RFP-ID0001</span>
+        </div>
+        <h4 class="font-semibold text-[#374151] text-2xl">Permutas</h4>
+        <p class="text-xl text-gray-600 mt-1">
+          Validación de nivel entre plazas al ejecutar permuta.
+        </p>
+      </div>
+
+      <div class="bg-gray-50 p-6 rounded-lg shadow-md border-l-4 border-blue-500 md:col-span-2">
+        <div class="flex justify-between items-start mb-2">
+          <span class="text-2xl text-gray-500">10/03/2025</span>
+          <span class="bg-blue-100 text-blue-700 text-xl font-semibold px-2 py-1 rounded-full">Correo técnico</span>
+        </div>
+        <h4 class="font-semibold text-[#374151] text-2xl">Vacaciones</h4>
+        <p class="text-xl text-gray-600 mt-1">
+          Correcciones al flujo y validación mediante calendario institucional.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <section class="bg-gray-50 px-4 py-16">
+  <div class="max-w-7xl mx-auto">
+    <h3 class="text-5xl font-semibold text-[#374151] mb-8">7.3 Homologaciones Detectadas</h3>
+    <div class="grid md:grid-cols-2 gap-6">
+      
+      <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-green-500">
+        <div class="flex justify-between items-start mb-2">
+          <span class="text-2xl text-gray-500">15/01/2025 – V1</span>
+          <span class="bg-green-100 text-green-700 text-xl font-semibold px-2 py-1 rounded-full">93%</span>
+        </div>
+        <h4 class="font-semibold text-[#374151] text-2xl">1ra Quincena de Enero</h4>
+        <p class="text-xl text-gray-600 mt-1">
+          Primer cálculo base. Diferencias iniciales con el sistema anterior.
+        </p>
+      </div>
+
+      <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-green-500">
+        <div class="flex justify-between items-start mb-2">
+          <span class="text-2xl text-gray-500">20/04/2025 – V3</span>
+          <span class="bg-green-100 text-green-700 text-xl font-semibold px-2 py-1 rounded-full">99.48%</span>
+        </div>
+        <h4 class="font-semibold text-[#374151] text-2xl">2da Quincena de Abril</h4>
+        <p class="text-xl text-gray-600 mt-1">
+          Tercer comparativo. Diferencias aún en 970 empleados.
+        </p>
+      </div>
+
+      <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-green-500 md:col-span-2">
+        <div class="flex justify-between items-start mb-2">
+          <span class="text-2xl text-gray-500">12/05/2025 – V4</span>
+          <span class="bg-green-100 text-green-700 text-xl font-semibold px-2 py-1 rounded-full">Validado</span>
+        </div>
+        <h4 class="font-semibold text-[#374151] text-2xl">Cierre Final</h4>
+        <p class="text-xl text-gray-600 mt-1">
+          Duplicación provocó coincidencia superior al 100%. Considerado operativo.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+    </main>
+
+    <!-- Botón Volver arriba -->
+    <button
+  id="scrollToTopBtn"
+  onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
+  class="hidden fixed bottom-6 right-6 bg-[#4B8C5D] text-white p-3 rounded-full shadow-lg hover:bg-[#3d7049] transition-all z-50"
+>
+  <i class="ri-arrow-up-line text-2xl"></i>
+</button>
+
+
+    <script>
+  const scrollBtn = document.getElementById("scrollToTopBtn");
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 200) {
+      scrollBtn.classList.remove("hidden");
+    } else {
+      scrollBtn.classList.add("hidden");
+    }
+  });
+</script>
+
+  </body>
+</html>
